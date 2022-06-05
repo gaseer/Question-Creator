@@ -1,7 +1,7 @@
 function createTable(form)
 {
 //Division questions
-let a,b;
+let a;
 //get values from the user through the form
 let num = form.ques.value;
 let ques = form.digit.value;
@@ -17,23 +17,23 @@ switch(ques)
 {
 case '1':
 a=Math.floor(Math.random()*8)+1;
-b=Math.floor(Math.random()*7)+2;
+//b=Math.floor(Math.random()*7)+2;
 cell1.innerHTML = i;
-cell2.innerHTML = a+"/"+b+" = ? ";
+cell2.innerHTML = a+"/"+"2 = ? ";
 break;
 
 case '2':
 a=Math.floor(Math.random()*90)+9;
-b=Math.floor(Math.random()*80)+10;
+//b=Math.floor(Math.random()*80)+10;
 cell1.innerHTML = i;
-cell2.innerHTML = a+"/"+b+" = ?";
+cell2.innerHTML = a+"/"+"2 = ?";
 break;
 
 case '3':
 a=Math.floor(Math.random()*800)+100;
-b=Math.floor(Math.random()*700)+100;
+//b=Math.floor(Math.random()*700)+100;
 cell1.innerHTML = i;
-cell2.innerHTML = a+"/"+b+" = ? ";
+cell2.innerHTML = a+"/"+"2 = ? ";
 break;
 }
 }
