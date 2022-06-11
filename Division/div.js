@@ -26,7 +26,7 @@ else if (deno == 3)
   b=Math.floor(Math.random()*700)+100;
 }
 else{
-b="ERROR";
+window.alert(" Enter a number less than 4 ");
 }
 
 //Selecting how many digits the user selected
