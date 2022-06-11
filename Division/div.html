@@ -9,12 +9,15 @@
     <link rel="stylesheet" href="div.css">
 </head>
 <body>
-    <div id="myDIV">
+     <div id="myDIV">
     <h1>Division Problem Creator</h1>
     <form action="PayslipServlet" method="get">      
-    <p>How many questions you want : <input type="number" name="ques"></p>
-    <p>and how many digits in Numerator  :   <input type="number" name="nume" ></p>
-    <p>and how many digits in Denominator  :   <input type="number" name="deno" ></p>
+    <header>How many questions you want : <input type="number" name="ques"></header>
+    <ul><caption><u>Select number of digits in </u></caption> <br/>
+        <br/>
+        <li>Numerator  :   <input type="number" name="nume" ></li><br/>
+        <li> Denominator  :   <input type="number" name="deno" ></li>
+    </ul>
     <input class="button-73" onclick="createTable(form)" role="button" value=" Create Questions "> 
     </form>
     </div>
