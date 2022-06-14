@@ -4,17 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Multiplication Questions</title>
+    <title>Subtraction Questions</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong">
-    <link rel="stylesheet" href="multi.css">
+    <link rel="stylesheet" href="sub.css">
 </head>
 <body>
     <div id="myDIV">
-<h1>Multiplication Problem Creator</h1>
+<h1>Subtraction Problem Creator</h1>
     <form action="PayslipServlet" method="get">      
     <p>How many questions you want : <input type="number" name="ques"></p>
     <p>and how many digits in it  :   <input type="number" name="digit" ></p>
-    <input class="button-73" onclick="createTable(form)" role="button" value=" Create Questions "> 
+    <p>To create questions which gives negative ANS CLICK-<input class="button-73" onclick="createTable(form)" role="button" value=" Create Questions "> 
+    <BR/>
+    <p>To create questions gives MINUEND > SUBTRAHEND-<input class="button-73" onclick="createTableb(form)" role="button" value=" Create Questions "> 
+
     </form>
     </div>
     <button class="button button1" onclick="myFunction()">Click to Toggle the contents above</button>
@@ -23,5 +26,5 @@
         <table id="myTable" border="1"> 
         </table>
 </body>
-<script src="script.js"></script>
+<script src="sub.js"></script>
 </html>
